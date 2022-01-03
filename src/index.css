@@ -1,53 +1,64 @@
 
 #main {
-  margin: auto;
-  width: 90vw;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:#323232
 }
 
+
 #main > div {
-  width: 90%;
+  width: 90vw;
   margin: 1em auto;
-
 }
 
-#main img {
-  width: 50%;
-}
-
-.center {
+#logo {
   text-align: center;
-  width: 100%;
 }
-
-.left {
-  text-align: left;
-  width: 100%;
+#logo img {
+  width: 40%;
 }
 
 #logo h1 {
-  font-size: 2rem;
+  font-size: 25px;
+  margin-top: -10px;
+  line-height: 25px;
 }
+
+#logo p {
+  font-size: 11px;
+}
+
 
 #data {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 2rem;
-  line-height: 1em;
 }
 
 #data h2 {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 #data p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: -20px;
+  font-size: 25px;
+}
+
+#vacunacion {
+  border: 5px solid #7caf50;
+  border-radius: 10px;
+  box-sizing: content-box;
+  padding: 0.5em;
+  line-height: 5px;
+  font-size: 10px;
+}
+
+#vacunacion p:last-child {
+ font-size: 12px;
 }
 
 .green {
   color:#7caf50;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 25px;
 }
 
 .grey {
@@ -55,30 +66,21 @@
 }
 
 .check {
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: bold;
 }
 
-#vacunacion {
-  border: 8px solid #7caf50;
-  border-radius: 10px;
-  box-sizing: content-box;
-  padding: 2em;
-  line-height: 20px;
-  width: 90%;
-}
 
 #diagnostico {
-  border: 8px solid #d1d1d1;
+  border: 5px solid #d1d1d1;
   border-radius: 10px;
   box-sizing: content-box;
-  padding: 2em;
-  line-height: 20px;
+  padding: 0.5em;
+  line-height: 5px;
+  font-size: 10px;
 }
 
-#info {
-  margin-top: 2em;
-}
 #info p {
-  font-size: 1em;
+  text-align: center;
+  font-size: 11px;
 }

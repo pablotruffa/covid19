@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.48341c29.css",
-    "main.js": "/static/js/main.a5370636.js",
+    "main.css": "/static/css/main.6a88d6f5.css",
+    "main.js": "/static/js/main.bce8a85c.js",
     "static/media/logoCuidar.jpg": "/static/media/logoCuidar.88af737dc0b5ba31b77d.jpg",
     "index.html": "/index.html",
-    "main.48341c29.css.map": "/static/css/main.48341c29.css.map",
-    "main.a5370636.js.map": "/static/js/main.a5370636.js.map"
+    "main.6a88d6f5.css.map": "/static/css/main.6a88d6f5.css.map",
+    "main.bce8a85c.js.map": "/static/js/main.bce8a85c.js.map"
   },
   "entrypoints": [
-    "static/css/main.48341c29.css",
-    "static/js/main.a5370636.js"
+    "static/css/main.6a88d6f5.css",
+    "static/js/main.bce8a85c.js"
   ]
 }
