@@ -1,9 +1,8 @@
 import React from 'react'
 import './index.css';
+import logo from './logoCuidar.jpg';
 
 export const Vaccines = () => {
-
-    const fecha_dinamica = document.getElementById("fecha");
     
     let today = new Date();
     let dd = String(today.getDate()).padStart(2, '0');
@@ -16,7 +15,7 @@ export const Vaccines = () => {
     return (
         <div id='main'>
             <div id="logo" className="center">
-            <span><img src="./logoCuidar.jpg"/></span>
+            <span><img alt="logo" src={logo}/></span>
             <h1>Información <br/>de salud</h1>
             <p>Es necesario que sigamos cuidándonos y respetando las medidas y recomendaciones sanitarias</p>
             </div>

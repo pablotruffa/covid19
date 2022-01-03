@@ -8,8 +8,12 @@
 
 #main > div {
   width: 90%;
-  margin: 2em auto;
+  margin: 1em auto;
 
+}
+
+#main img {
+  width: 50%;
 }
 
 .center {
@@ -33,7 +37,7 @@
 }
 
 #data h2 {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 #data p {
@@ -43,7 +47,7 @@
 .green {
   color:#7caf50;
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 
 .grey {
@@ -51,7 +55,7 @@
 }
 
 .check {
-  font-size: 5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -61,6 +65,7 @@
   box-sizing: content-box;
   padding: 2em;
   line-height: 20px;
+  width: 90%;
 }
 
 #diagnostico {
