@@ -15,7 +15,6 @@ export const Vaccines = () => {
     return (
         <div id='main'>
             <div id="logo" className="center">
-            <span><img alt="logo" id="logoImg" src={logo}/></span>
             <span><img alt="logo" id="logoImg" src="./static/media/logoCuidar.88af737dc0b5ba31b77d.jpg"/></span>
             <h1>Información <br/>de salud</h1>
             <p>Es necesario que sigamos cuidándonos y respetando las medidas y recomendaciones sanitarias</p>
